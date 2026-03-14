@@ -1,12 +1,13 @@
-Medical Insurance Cost Prediction
-Overview
+# 🩺Medical Insurance Cost Prediction
+
+## 📊Overview
 
 This project predicts medical insurance charges based on personal and health-related attributes such as age, BMI, smoking status, and region.
 The model is trained using machine learning techniques and deployed through a simple web interface.
 
 The goal is to estimate insurance costs and analyze which factors significantly influence medical expenses.
 
-Dataset
+### Dataset
 
 The dataset contains the following features:
 
@@ -18,7 +19,7 @@ The dataset contains the following features:
 - Region – Residential region in the US
 - Charges – Individual medical insurance cost (Target Variable)
 
-Exploratory Data Analysis (EDA)
+### 📈Exploratory Data Analysis (EDA)
 
 Key insights from the dataset:
 
@@ -28,14 +29,15 @@ Key insights from the dataset:
 - Age shows a positive relationship with insurance charges.
 - Region has minimal impact on insurance costs.
 
-Visualization techniques used:
+
+### 📉Visualization techniques used:
 
 - Box plots
 - Violin plots
 - Scatter plots
 - Regression plots
 
-Machine Learning Model
+### Machine Learning Model
 
 Algorithms evaluated:
 
@@ -45,13 +47,13 @@ Algorithms evaluated:
 
 Random Forest performed better due to its ability to capture non-linear relationships between variables.
 
-Evaluation metrics used:
+### Evaluation metrics used:
 
 - MAE (Mean Absolute Error)
 - RMSE (Root Mean Squared Error)
 - R² Score
 
-Technologies Used
+### 💻Technologies Used
 
 - Python
 - Pandas
@@ -63,7 +65,7 @@ Technologies Used
 - Render
 - Spline
 
-Model Deployment
+### 🚀Model Deployment
 
 The trained model is deployed using Flask, allowing users to input parameters through a web interface and receive predicted insurance costs. 
 
