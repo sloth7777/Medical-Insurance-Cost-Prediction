@@ -71,6 +71,6 @@ The trained model is deployed using Flask, allowing users to input parameters th
 
 https://medical-insurance-cost-prediction-b6d0.onrender.com
 
-Author
+## Author
 
 Shristi Singh
