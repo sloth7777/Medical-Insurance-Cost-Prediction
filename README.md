@@ -69,7 +69,12 @@ Random Forest performed better due to its ability to capture non-linear relation
 
 The trained model is deployed using Flask, allowing users to input parameters through a web interface and receive predicted insurance costs. 
 
+🌐 Live Demo: The project is deployed and accessible here:
+
 https://medical-insurance-cost-prediction-b6d0.onrender.com
+
+Feel free to check it out and share your feedback!
+
 
 ## Author
 
